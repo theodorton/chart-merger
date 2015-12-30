@@ -1,3 +1,5 @@
+[![Codeship](https://img.shields.io/codeship/063a09f0-9176-0133-dd26-02f6f3a4e3c7.svg)](https://codeship.com/projects/124625)
+
 # chart-merger
 
 Merge data from different streams of data with `x` and `y` keys.

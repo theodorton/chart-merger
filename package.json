@@ -1,8 +1,9 @@
 {
   "name": "chart-merger",
   "version": "0.1.0",
-  "description": "",
+  "description": "Merge data from different streams of data with `x` and `y` keys.",
   "main": "index.js",
+  "repository": "https://github.com/theodorton/chart-merger",
   "scripts": {
     "test": "mocha --compilers js:babel-register --recursive test",
     "prepublish": "babel -d build src"

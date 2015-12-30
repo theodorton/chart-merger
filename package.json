@@ -1,0 +1,24 @@
+{
+  "name": "chart-merger",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --recursive test",
+    "prepublish": "babel -d build src"
+  },
+  "engines": {
+    "node": ">=4 <5"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13"
+  },
+  "files": [
+    "index.js",
+    "build"
+  ]
+}
